@@ -1,33 +1,43 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Ignore system files and unnecessary folders
+Application Data/
+Cookies/
+Documents/My Music/
+Documents/My Pictures/
+Documents/My Videos/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Ignore all hidden files and folders except `.gitignore`
+.*
+!.gitignore
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# Ignore Windows-specific files
+desktop.ini
+Thumbs.db
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# Ignore IDE-specific files
+.idea/
 .vscode/
+
+# Ignore build and dependency directories
+target/
+node_modules/
+build/
+out/
+
+# Ignore OS files
+.DS_Store
+
+# Ignore other irrelevant files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Add more patterns as needed
